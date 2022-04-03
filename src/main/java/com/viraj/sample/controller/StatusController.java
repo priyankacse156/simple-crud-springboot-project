@@ -5,9 +5,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-public class StatusController {
-    @RequestMapping("/")
 
+@RestController
+@RequestMapping("/")
+public class StatusController {
+ 
     @GetMapping(path = "/status")
     public String getMessage() {
         return "Environment A";
