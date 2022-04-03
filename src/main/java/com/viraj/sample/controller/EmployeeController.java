@@ -14,9 +14,9 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
-    @GetMapping(path = "/hello")
+    @GetMapping(path = "/status")
     public String getMessage() {
-        return "Hello boot";
+        return "Environment A";
     }
 
     @PostMapping("/save")
