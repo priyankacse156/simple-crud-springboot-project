@@ -1,9 +1,11 @@
-package com.viraj.sample.entity;
+package com.viraj.sample.service;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
 import java.util.Date;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ServiceTime {
     public String getServiceStartTime() {
 

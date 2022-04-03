@@ -1,7 +1,8 @@
 package com.viraj.sample.controller;
+import com.viraj.sample.service.ServiceTime;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.viraj.sample.entity.ServiceTime;
 
 
 @RestController
