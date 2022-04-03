@@ -7,6 +7,7 @@ import com.viraj.sample.entity.ServiceTime;
 @RestController
 @RequestMapping("/")
 public class StatusController {
+    @Autowired
     private ServiceTime serviceTime;
  
     @GetMapping(path = "/status")
