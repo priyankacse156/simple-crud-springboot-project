@@ -12,7 +12,7 @@ public class StatusController {
  
     @GetMapping(path = "/status")
     public String getMessage() {
-        return "Environment:B V2";
+        return "Environment A";
     }
 }
 
