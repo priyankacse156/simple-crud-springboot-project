@@ -10,7 +10,11 @@
 	</parent>
 	<groupId>com.viraj</groupId>
 	<artifactId>sample</artifactId>
+<<<<<<< HEAD
 	<version>v2</version>
+=======
+	<version>v1</version>
+>>>>>>> v1
 	<name>sample</name>
 	<description>Demo project for Spring Boot</description>
 
